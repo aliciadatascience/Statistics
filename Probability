@@ -1,0 +1,2 @@
+Q1: Given a uniform random variable x in the range of [0,1] inclusively. What’s the probability that X=0.5?
+A1: The fact that x takes values from the range [0,1] implies that x is a continuous uniform random variable, and then P(x = 0.5) = 0, since for continuous random variables, the probability that x takes on any particular value is 0.
