@@ -1,2 +1,33 @@
 Q1: Given a uniform random variable x in the range of [0,1] inclusively. What’s the probability that X=0.5?
 A1: The fact that x takes values from the range [0,1] implies that x is a continuous uniform random variable, and then P(x = 0.5) = 0, since for continuous random variables, the probability that x takes on any particular value is 0.
+
+Q2: PDF
+A2: Probability density function
+
+Q3: When is the t-distribution useful?
+A3: We use t-distribution when working on problems of which the population standard deviation is not known and the sample size is small (<30).
+
+Q4: 泊松分布
+A4: 1. 用于描述单位时间（或空间）内随机事件发生的次数。
+
+Q5: Binomial Distribution: x - B(n, p)
+A5: 1) Assumption: a) 2 types of outcomes;
+                   b) independent events;
+                   c) Identical distribution;
+    2) 二项分布的形状取决于n,p. p = 0.5 图像对称；p < 0.5 图像向右偏斜； p > 0.5 图像向左偏斜
+
+Q7: Chi-square test
+A7: Chi-square test can check how well observed values fit the expected values for categorical data.
+
+Q8: Z-test are used when we know population parameters;
+    T-test are used when we don't know population parameters;
+
+Q9: descriptive statistics
+
+    inferential statistics
+      a) hypothesis test
+      b) confidence interval
+    
+    effect sie measurements:
+      a) cohen's qd = mean difference / standard deviation 
+      b) r square
