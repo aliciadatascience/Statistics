@@ -1,0 +1,27 @@
+In the field of statistics, the assumption of normality is important because many statistical techniques perform calculations assuming the data is normally distributed.
+
+The following techniques assume normality:
+1) hypothesis testing through t-test and z-test
+2) ANOVA (Analysis of variance)
+
+However, many real-life data distribution may be lognormal, exponential or Weibull distribution. What should we do if the data fails a normality test.
+1) Use it as it or fit non-normal distribution
+2) Try non-parametric method
+3) Transform the data into normal distribution
+
+1) Use it as it or fit non-normal distribution
+Although the data is known to follow normal distribution, it is possible that the data does not look normal because there are too few samples.
+2)Try non-parametric method
+There are pros and cons for using non-parametric methods. The biggest pros is that it does not assume anything about the distribution. We do not need to know distribution shape, mean, standard devation, skewness etc. All we need is just a set of sample data that is representative of a population.
+
+Non-parametric methods are geared toward hypothesis testing rather than estimation. Disadvantages of non-parametric methods include lack of power compared to more traditional approaches that require prior knowledge of a distribution.Another disadvantage is that many non-parametric methods are computation intentive. For example, boostrapping is a non-parametric resample method. When it was used to compute confidence interval of statistics, it requires numerical iterations, whereas computing confidence interval with parametric methods does not require iterations.
+
+3) Transform the data into normal distribution
+Box-Cox transformation is a type of power transformation to convert non-normal data to normal data by raising the distribution to a power of lambda. The algorithm can sutomatically decide the lambda parameter that best transforms the distribution into normal distribution.
+
+The lambda parameter for Box-Cox has a range of [-5, 5].If the lambda parameter is determined to be 2, then the distribution will be raised to a power of 2. The exception to this rule is that when the lambda parameter is 0, log will be taken to the distribution.
+
+Box-cox transformation does not work if data is samller than 0. This can easily be fixed by adding a constant that will make all your data greater than zero.
+
+Reference:
+https://aegis4048.github.io/transforming-non-normal-distribution-to-normal-distribution
