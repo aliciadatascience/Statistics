@@ -10,6 +10,7 @@ A3: We use t-distribution when working on problems of which the population stand
 Q4: 泊松分布
 A4: 1. 用于描述单位时间（或空间）内随机事件发生的次数。
 
+
 Q5: Binomial Distribution: x - B(n, p)
 A5: 1) Assumption: a) 2 types of outcomes;
                    b) independent events;
